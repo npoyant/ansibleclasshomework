@@ -40,7 +40,7 @@
         region_name: RegionOne
       register: result
     - name: Start servers 
-      os_server_actions:
+      os_server_action:
         action: start
         server: "{{ item.name }}"
       with_items: "{{result.ansible_facts.openstack_servers}}"
