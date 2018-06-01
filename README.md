@@ -88,7 +88,7 @@ Credentials in order to communicate with AWS instances should be set up in the f
     * Acquire the GUID setup from OpenTLC.
     * `ssh` to your bastion machine:
       ```
-      [laptop ]$ ssh -i ~/.ssh/id_rsa npoyant-redhat.com@bastion.9ce4.example.opentlc.com
+      [laptop ]$ ssh -i ~/.ssh/id_rsa npoyant-redhat.com@bastion.cfc9.example.opentlc.com
       ```
     * Get the key information from the bastion:
       ```
